@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.acrous.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LivingEntityMixin",
+    "EndPortalMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

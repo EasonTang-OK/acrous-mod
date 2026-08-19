@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "acrous",
+  "version": "${version}",
+  "name": "Acrous Mod",
+  "description": "A mysterious mod that allows taming any creature with apples, but beware...",
+  "authors": [
+    "Eason tang"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "sources": "https://example.com/"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.acrous.AcrousMod"
+    ],
+    "client": [
+      "com.acrous.AcrousClient"
+    ]
+  },
+  "mixins": [
+    "acrous.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
